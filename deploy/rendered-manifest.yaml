@@ -186,6 +186,7 @@ metadata:
     heritage: Tiller
   annotations:
     certmanager.k8s.io/inject-ca-from: "default/cert-manager-webhook-alidns-webhook-tls"
+    cert-manager.io/inject-ca-from: "default/cert-manager-webhook-alidns-webhook-tls"
 spec:
   group: acme.lin07.me
   groupPriorityMinimum: 1000
